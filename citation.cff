@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+license: Apache-2.0 license
+message: "If you use this software, please cite it as below."
+authors:
+- given-names: "Daniel" 
+  family-names: "Buerer"
+  orcid: "https://orcid.org/0009-0002-5084-0465"
+title: "Tholos"
+version: 1.0.0
+doi: 10.5281/zenodo.15522023
+date-released: 2025-05-06
+url: "https://github.com/Mosstone/Tholos"
+abstract: >
+  Tartarus is a program designed to create an isolated and secure space
+  for other applications or outputs environment aware commands they can
+  utilize themselves. Tartarus is portable, made available in different
+  formats depending on the portability and anchoring needed, and checks
+  relative locations for dependencies before using system installations
+
+  This has significant appliations in performance systems which require
+  namespace isolation, ontological isolation, and ephemeral tmpfs which
+  may also forward graphical, audio, and other hardware function to the
+  isolated virtual system; while interacting with the state of the host
+  system, its contents, its settings, and its installed packages; while
+  not creating a fully separated virtual machine or consuming resources
+  not required for core function by the host application but scaling to
+  use high amounts of resources as required; creating filesystems where
+  a typical operating system structure may not exist on the host system
